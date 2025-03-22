@@ -14,29 +14,24 @@ This is a simple Django project that demonstrates product catalog functionality 
 ## Setup Instructions
 
 1. Clone the repository
+   ```
+   git clone https://github.com/svndor-hub/django-take-home.git
+   cd django-take-home
+   ```
 2. Create and activate a virtual environment:
    ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .\\.venv\Scripts\activate
    ```
 3. Install dependencies:
    ```
    pip install django
    ```
-4. Run migrations:
-   ```
-   python manage.py makemigrations
-   python manage.py migrate
-   ```
-5. Create a superuser:
-   ```
-   python manage.py createsuperuser
-   ```
-6. Run the development server:
+4. Run the development server:
    ```
    python manage.py runserver
    ```
-7. Visit http://127.0.0.1:8000/ to use the search and filter functionality
+5. Visit http://127.0.0.1:8000/
 
 ## Usage
 
