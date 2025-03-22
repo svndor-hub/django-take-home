@@ -40,3 +40,7 @@ This is a simple Django project that demonstrates product catalog functionality 
 3. Use the category dropdown to filter products by category
 4. Use the tag checkboxes to filter products by tag
 5. Combine search and filters as needed
+
+## AI Usage note
+
+Generative AI was used to generate some CSS in the index.html file.
